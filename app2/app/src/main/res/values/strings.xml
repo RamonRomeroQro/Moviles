@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app2</string>
+    <string name="b1">Landscape and Portrait</string>
+    <string name="b2">Update text</string>
+    <string name="b3">Message in new activity</string>
+
+</resources>
