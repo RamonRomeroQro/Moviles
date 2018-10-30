@@ -1,0 +1,17 @@
+<ion-view title="Page" id="page1">
+  <ion-content padding="true" class="has-header">
+    <form id="page-form1" class="list">
+      <ion-radio id="page-radio1">Radio</ion-radio>
+      <ion-radio id="page-radio2">Radio</ion-radio>
+      <ion-item class="range range-positive" id="page-range1">Range
+        <input type="range" value="50" min="0" max="100" step="1">
+      </ion-item>
+      <label class="item item-input" id="page-input2">
+        <span class="input-label">Input</span>
+        <input type="text" placeholder="" name="mdl.texto">
+      </label>
+      <ion-checkbox id="page-checkbox1">Checkbox</ion-checkbox>
+    </form>
+    <p>OK: {{ mdl.texto}}
+  </ion-content>
+</ion-view>

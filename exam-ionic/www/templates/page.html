@@ -1,0 +1,18 @@
+<ion-view title="Page" id="page1">
+  <ion-content padding="true" class="has-header">
+    <form id="page-form1" class="list">
+      <label class="item item-select" id="page-select1">
+        <span class="input-label">Company</span>
+        <select ng-model="mdl.seleccion">
+          <option value="AAPL">Apple Computer – AAPL</option>
+          <option value="GE">General Electric Company – GE</option>
+          <option value="SBUX">Starbucks Corporation – SBUX</option>
+          <option value="WBA">Walgreens Company – WBA</option>
+        </select>
+      </label>
+    </form>
+        <a ui-sref="page2({ seleccion: mdl.seleccion})" id="page-button1" class="button button-positive button-block">Get Information</a>
+
+
+  </ion-content>
+</ion-view>
