@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Udemy2</string>
+    <string name="texto_grados">17º</string>
+    <string name="texto_ciudad">Querétaro</string>
+    <string name="texto_status">Soleado</string>
+    <string name="welcome">Saludos desde la cima, selecciona una ciudad</string>
+    <string name="city1">CDMX</string>
+    <string name="city2">Qro</string>
+</resources>
